@@ -1,6 +1,5 @@
 <?php
-//MODEL POUR LA TABLE JOUEURS
-<?php
+
 class ModelPlayer {
     private int $id;
     private string $pseudo;
@@ -33,4 +32,3 @@ class ModelPlayer {
 }
 ?>
 
-?>

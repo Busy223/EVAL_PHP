@@ -7,7 +7,7 @@ function sanitize($data){
 //Fonction de création de l'objet de connexion PDO
 //TODO : configurer correctement les paramètres du constructeur
 function connect(){
-    return new PDO('mysql:host=;dbname=','','',array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
+    return new PDO('mysql:host=localhost;dbname=supergame','root','',array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
 }
 
 ?>
