@@ -1,0 +1,3 @@
+<?php
+//CONTROLER DE LA PAGE D'ACCUEIL
+?>
